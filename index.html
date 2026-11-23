@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leaving Cert Q&amp;A apps</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Leaving Cert Q&amp;A apps</h1>
+    <p>Pick your subject.</p>
+    <div id="list"></div>
+  </main>
+  <script src="apps.js"></script>
+  <script>
+    var list = document.getElementById("list");
+    Object.keys(window.LC_APPS).forEach(function (id) {
+      var a = document.createElement("a");
+      a.className = "btn"; a.href = id + "/"; a.textContent = window.LC_APPS[id].name;
+      list.appendChild(a);
+    });
+  </script>
+</body>
+</html>
