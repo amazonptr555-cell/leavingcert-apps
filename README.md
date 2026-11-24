@@ -1,6 +1,6 @@
 # Leaving Cert apps smart links
 
-One share link per app: `https://amazonptr555-cell.github.io/leavingcert-apps/<app>/`.
+One share link per app: `https://leavingcertapps.ie/<app>/`.
 iPhone/iPad go to the App Store, Android goes to Google Play (or a "coming soon" note), desktop sees both buttons.
 
 - **Store links:** edit `apps.js`. When an Android app is released, paste its Play Store link into `android`.
