@@ -1,5 +1,5 @@
 // One entry per app. The key is the folder name in the link,
-// e.g. https://amazonptr555-cell.github.io/leavingcert-apps/biology/
+// e.g. https://leavingcertapps.ie/biology/
 // Leave "android" empty until the Android app is live; Android visitors then see "coming soon".
 window.LC_APPS = {
   biology: {

@@ -2,7 +2,7 @@
 Then add the app to apps.js and drop a 512x512 icon.png into the folder."""
 import html, os, sys
 
-BASE = "https://amazonptr555-cell.github.io/leavingcert-apps"
+BASE = "https://leavingcertapps.ie"
 TEMPLATE = """<!doctype html>
 <html lang="en">
 <head>
